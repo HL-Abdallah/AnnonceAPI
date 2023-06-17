@@ -43,7 +43,7 @@ L'API expose les endpoints suivants :
 
 ## Documentation API avec Swagger
 
-L'API est documentée à l'aide de Swagger. Vous pouvez consulter la documentation de l'API et tester les endpoints en accédant à l'URL suivante : http://localhost:8080/swagger-ui.html
+L'API est documentée à l'aide de Swagger. Vous pouvez consulter la documentation de l'API et tester les endpoints en accédant à l'URL suivante : http://localhost:8082/swagger-ui.html
 
 ## Base de données
 
