@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    cache: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/annonce_api
+    username: postgres
+    password: root
+
+server:
+  port: 8082
+
+logging:
+  file:
+    name: logs/all-logs.log
+  level:
+    root: info
