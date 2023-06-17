@@ -21,7 +21,6 @@ public class Annonce {
     private String titre;
     private String description;
     private double prix;
-
     @Enumerated(EnumType.STRING)
     private TypeAnnonce type;
 
