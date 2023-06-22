@@ -2,8 +2,12 @@ spring:
   thymeleaf:
     cache: false
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
   datasource:
     url: jdbc:postgresql://localhost:5432/annonce_api
     username: postgres
@@ -17,3 +21,13 @@ logging:
     name: logs/all-logs.log
   level:
     root: info
+    com.example.annonceapi : debug
+
+#springdoc:
+#  api-docs:
+#    path: /v1/docs
+#  swagger-ui:
+#    path: /swagger.html
+#    try-it-out-enabled: true
+#    display-request-duration: true
+#    doc-expansion: true
