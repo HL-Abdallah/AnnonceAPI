@@ -32,19 +32,10 @@ mvn spring-boot:run
 
 2. L'application sera accessible à l'adresse suivante : http://localhost:8082
 
-## API Endpoints
-
-L'API expose les endpoints suivants :
-
-- **POST /annonces** : Crée une nouvelle annonce en fournissant les détails (titre, description, prix, type).
-- **GET /annonces** : Récupère la liste complète des annonces.
-- **DELETE /annonces/{id}** : Supprime une annonce spécifiée par son ID.
-- **PUT /annonces/{id}** : Modifie une annonce existante en fournissant son ID et les détails mis à jour.
-
 ## Documentation API avec Swagger
 
 L'API est documentée à l'aide de Swagger. Vous pouvez consulter la documentation de l'API et tester les endpoints en accédant à l'URL suivante : http://localhost:8082/swagger-ui.html
 
 ## Base de données
 
-Ce projet utilise une base de données PostgreSQL v15 par défaut. Si vous souhaitez utiliser une autre base de données, veuillez modifier la configuration dans le fichier `application.properties`.
+Ce projet utilise une base de données PostgreSQL v15 par défaut. Si vous souhaitez utiliser une autre base de données, veuillez modifier la configuration dans le fichier `application.yml`.
