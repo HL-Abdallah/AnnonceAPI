@@ -1,4 +1,4 @@
-package com.example.annonceapi;
+package com.example.annonceapi.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
