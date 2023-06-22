@@ -26,4 +26,4 @@ INSERT INTO annonce (id, titre, description, prix, type)
 VALUES ('3b64b4f9-dcaa-487d-bc9f-8b5b09fdadaf', 'Title 9', 'Description 9', 900.00, 'EMPLOI');
 
 INSERT INTO annonce (id, titre, description, prix, type)
-VALUES ('a7deec2f-270c-4e1f-96e6-1484fd8bda23', 'Title 10', 'Description 10', 1000.00, 'IMMOBILIER');
+VALUES ('a7deec2f-270c-4e1f-96e6-1484fd8bda23', 'changed', 'Description 10', 1000.00, 'IMMOBILIER');
