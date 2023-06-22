@@ -1,4 +1,4 @@
-package com.example.annonceapi;
+package com.example.annonceapi.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

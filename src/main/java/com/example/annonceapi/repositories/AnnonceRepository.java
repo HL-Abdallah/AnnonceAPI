@@ -1,5 +1,6 @@
-package com.example.annonceapi;
+package com.example.annonceapi.repositories;
 
+import com.example.annonceapi.entities.Annonce;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

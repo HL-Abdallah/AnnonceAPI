@@ -1,4 +1,4 @@
-package com.example.annonceapi;
+package com.example.annonceapi.entities;
 
 public enum TypeAnnonce {
     IMMOBILIER,
